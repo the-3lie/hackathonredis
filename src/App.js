@@ -36,12 +36,12 @@ function App() {
           <h1 className='display-1 fw-bold'>Participez au Hackaton officiel</h1>
           <p className='fs-5 text-muted mb-4'>Plateforme dédiée au concours : inscrivez votre équipe et enchaînez les défis du hackaton avec un démarrage automatique du premier défi.</p>
           <div class="d-flex flex-wrap gap-3 mt-4">
-              <span class="badge bg-primary fs-6 p-2"><i class="bi bi-calendar-event me-1"></i>03-12 Décembre 2025</span>
-              <span class="badge bg-success fs-6 p-2"><i class="bi bi-geo-alt me-1"></i>IUA, corniche</span>
-              <span class="badge bg-info fs-6 p-2"><i class="bi bi-people me-1"></i>Équipes de 3</span>
+              <span class="badge bg-primary fs-6 p-2"><i class="bi bi-calendar-event me-3"></i>03-12 Décembre 2025</span>
+              <span class="badge bg-success fs-6 p-2"><i class="bi bi-geo-alt me-3"></i>IUA, corniche</span>
+              <span class="badge bg-info fs-6 p-2"><i class="bi bi-people me-3"></i>Équipes de 3</span>
           </div>
           <div className='d-flex align-items-center mt-3'>
-            <a href="https://hackaredis.vercel.app/signup" className='btn btn-info text-white fw-medium me-3'><i className="bi bi-trophy"></i> Créer mon équipe</a>
+            <a href="https://hackaredis.vercel.app/signup" className='btn btn-info text-white fw-medium me-5'><i className="bi bi-trophy me-3"></i> Créer mon équipe</a>
           </div>
         </div>
         <div className='col-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center align-items-start'>
@@ -277,7 +277,7 @@ function App() {
 
   {/* <section id="themes" class="py-5">
       <div class="container py-5">
-          <h2 class="underline-animate underline-dark display-5 text-dark fw-bold text-center mb-5">Thèmes du Hackaton</h2>
+          <h2 class="underline-animate underline-dark display-5 text-dark fw-bold text-center mb-5">Exemple des Thèmes des Hackatons</h2>
           <div class="row g-4">
               <div class="col-md-6 col-lg-4">
                   <div class="card h-100 border-0 shadow-sm">
