@@ -275,7 +275,7 @@ function App() {
       </div>
     </section>
 
-  <section id="themes" class="py-5">
+  {/* <section id="themes" class="py-5">
       <div class="container py-5">
           <h2 class="underline-animate underline-dark display-5 text-dark fw-bold text-center mb-5">Thèmes du Hackaton</h2>
           <div class="row g-4">
@@ -347,7 +347,7 @@ function App() {
               </div>
           </div>
       </div>
-  </section>
+  </section> */}
 
  <section>
         
