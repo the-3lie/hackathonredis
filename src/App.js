@@ -521,8 +521,7 @@ function App() {
                 style={{ width: '80px', height: '80px', objectFit: 'contain' }}
               />
               <p className="small mb-0">
-                prêt à relever le défi, tout en motivant ton talent, viens vivre une expérience pas comme les autres dans le développement et le réseau.
-              </p>
+Prêt à relever le défi et montrer ton talent ? Viens vivre une expérience unique dans le développement et les rencontres professionnelles !              </p>
             </div>
           </Col>
 
