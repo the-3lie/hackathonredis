@@ -407,77 +407,102 @@ function App() {
 </div>  */}
 
  </section>
- <section id="faq" class="py-3 bg-light">
-      <div class="container py-5">
-          <h2 class="display-5 fw-bold text-center mb-5">Questions Fréquentes</h2>
-          <div class="row justify-content-center">
-              <div class="col-lg-9">
-                  <div class="accordion" id="faqAccordion">
-                      <div class="accordion-item">
-                          <h2 class="accordion-header">
-                              <button class="accordion-button py-2 border rounded-3 px-1" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                  Qui peut participer à HackaRedis ?
-                              </button>
-                          </h2>
-                          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                              <div class="accordion-body">
-                                  HackaRedis est ouvert à tous les passionnés de technologie : développeurs, designers, entrepreneurs, étudiants. Les équipes doivent être composées de 3 membres. Aucune limite d'âge ni de niveau d'expérience n'est imposée.
-                              </div>
-                          </div>
-                      </div>
-                      <div class="accordion-item">
-                          <h2 class="accordion-header">
-                              <button class="accordion-button py-2 border rounded-3 px-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                  Dois-je avoir une équipe pour participer ?
-                              </button>
-                          </h2>
-                          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                              <div class="accordion-body">
-                                  Oui, vous ne pouvez pas vous inscrire en tant qu'individu.
-                              </div>
-                          </div>
-                      </div>
-                      <div class="accordion-item">
-                          <h2 class="accordion-header">
-                              <button class="accordion-button py-2 border rounded-3 px-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                  Quel est le coût de participation ?
-                              </button>
-                          </h2>
-                          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                              <div class="accordion-body">
-                                  La participation à HackaRedis est entièrement gratuite.
-                              </div>
-                          </div>
-                      </div>
-                      <div class="accordion-item">
-                          <h2 class="accordion-header">
-                              <button class="accordion-button py-2 border rounded-3 px-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                  Que dois-je apporter ?
-                              </button>
-                          </h2>
-                          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                              <div class="accordion-body">
-                                  Apportez votre ordinateur portable, son chargeur, et toute autre matériel dont vous pourriez avoir besoin.
-                              </div>
-                          </div>
-                      </div>
-                      <div class="accordion-item">
-                          <h2 class="accordion-header">
-                              <button class="accordion-button py-2 border rounded-3 px-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                                  Puis-je commencer à travailler sur mon projet avant l'événement ?
-                              </button>
-                          </h2>
-                          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                              <div class="accordion-body">
-                                  Oui, vous pouvez réfléchir à des idées et concevoir votre projet à l'avance. Et c'est ce qui est recommandé.
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+<section id="faq" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="display-6 fw-bold text-center mb-4 mb-md-5">Questions Fréquentes</h2>
+    
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <div id="faqAccordion">
+
+          {/* <!-- Bouton 1 --> */}
+          <div class="mb-3 text-center">
+            <button class="btn btn-outline-primary w-100 text-start fw-semibold py-3 px-3"
+              type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+              aria-expanded="true" aria-controls="faq1">
+              Qui peut participer à HackaRedis ?
+            </button>
           </div>
+
+          {/* <!-- Contenu 1 --> */}
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-white border rounded-3 shadow-sm p-3">
+              HackaRedis est ouvert à tous les passionnés de technologie : développeurs, designers, entrepreneurs, étudiants.
+              Les équipes doivent être composées de 3 membres. Aucune limite d'âge ni de niveau d'expérience n'est imposée.
+            </div>
+          </div>
+
+          {/* <!-- Bouton 2 --> */}
+          <div class="mb-3 text-center">
+            <button class="btn btn-outline-primary w-100 text-start fw-semibold py-3 px-3 collapsed"
+              type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+              aria-expanded="false" aria-controls="faq2">
+              Dois-je avoir une équipe pour participer ?
+            </button>
+          </div>
+
+          {/* <!-- Contenu 2 --> */}
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-white border rounded-3 shadow-sm p-3">
+              Oui, vous ne pouvez pas vous inscrire en tant qu'individu.
+            </div>
+          </div>
+
+          {/* <!-- Bouton 3 --> */}
+          <div class="mb-3 text-center">
+            <button class="btn btn-outline-primary w-100 text-start fw-semibold py-3 px-3 collapsed"
+              type="button" data-bs-toggle="collapse" data-bs-target="#faq3"
+              aria-expanded="false" aria-controls="faq3">
+              Quel est le coût de participation ?
+            </button>
+          </div>
+
+          {/* <!-- Contenu 3 --> */}
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-white border rounded-3 shadow-sm p-3">
+              La participation à HackaRedis est entièrement gratuite.
+            </div>
+          </div>
+
+          {/* <!-- Bouton 4 --> */}
+          <div class="mb-3 text-center">
+            <button class="btn btn-outline-primary w-100 text-start fw-semibold py-3 px-3 collapsed"
+              type="button" data-bs-toggle="collapse" data-bs-target="#faq4"
+              aria-expanded="false" aria-controls="faq4">
+              Que dois-je apporter ?
+            </button>
+          </div>
+{/* 
+          <!-- Contenu 4 --> */}
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-white border rounded-3 shadow-sm p-3">
+              Apportez votre ordinateur portable, son chargeur, et tout autre matériel dont vous pourriez avoir besoin.
+            </div>
+          </div>
+
+          {/* <!-- Bouton 5 --> */}
+          <div class="mb-3 text-center">
+            <button class="btn btn-outline-primary w-100 text-start fw-semibold py-3 px-3 collapsed"
+              type="button" data-bs-toggle="collapse" data-bs-target="#faq5"
+              aria-expanded="false" aria-controls="faq5">
+              Puis-je commencer à travailler sur mon projet avant l'événement ?
+            </button>
+          </div>
+
+          {/* <!-- Contenu 5 --> */}
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-white border rounded-3 shadow-sm p-3">
+              Oui, vous pouvez réfléchir à des idées et concevoir votre projet à l'avance. Et c'est ce qui est recommandé.
+            </div>
+          </div>
+
+        </div>
+
       </div>
-  </section>
+    </div>
+  </div>
+</section>
 
 <footer
       className="text-white pt-5 pb-3 mt-5 row d-flex"
@@ -486,7 +511,8 @@ function App() {
       <Container>
         <Row className="align-items-start text-center text-md-start">
           {/* Logo et description */}
-          <Col md={4} className="mb-4 mb-md-0">
+          <Col md={4} className="mt-4">
+            <h5 className="fw-bold mb-4 ps-3">Liens utiles</h5>
             <div className="d-flex flex-column align-items-center align-items-md-start">
               <img
                 src={logo}
@@ -501,9 +527,9 @@ function App() {
           </Col>
 
           {/* Liens rapides */}
-          <Col md={4} className="mt-7">
-            <h5 className="fw-bold mb-6 ps-5">Liens utiles</h5>
-            <ul className=" ps-5  ">
+        <Col md={4} className="mt-4">
+          <h5 className="fw-bold mb-4 ps-2 text-center">Liens utiles</h5>
+            <ul className=" mb-4 ps-3 text-center  ">
               <li><a href="#home" className="text-white underline-animate-dark-a text-decoration-none  ">Accueil</a></li>
               <li><a href="#about" className="text-white underline-animate-dark-a text-decoration-none">À propos</a></li>
               <li><a href="#events" className="text-white underline-animate-dark-a text-decoration-none">Événements</a></li>
