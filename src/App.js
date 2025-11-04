@@ -31,7 +31,7 @@ function App() {
           </a>
         </div>
       </nav>
-      <main className='row d-flex flex-column md-flex-md-row flex-lg-row pb-5  mt-5 pt-5 mb-5' style={{height: '100vh'}}>
+      <main className='row d-flex flex-column md-flex-md-row flex-lg-row pb-5 mt-5 pt-5 mb-5' style={{height: '100vh'}}>
         <div className='col-12 mb-4 m-lg-0 col-md-6 col-lg-6 col-xl-6 d-flex flex-column text-start text-wrap'>
           <h1 className='display-1 fw-bold'>Participez au Hackaton officiel</h1>
           <p className='fs-5 text-muted mb-4'>Plateforme dédiée au concours : inscrivez votre équipe et enchaînez les défis du hackaton avec un démarrage automatique du premier défi.</p>
@@ -86,8 +86,6 @@ function App() {
             {/* section d'activité  */}
 
         <section className='row d-flex flex-column flex-md-row flex-lg-row  text-black p-5  rounded-3  '>
-        <div className='col-12 mb-4 py-3 m-lg-0 col-md-6 col-lg-6 col-xl-6 d-flex gap-4 flex-md-column flex-lg-column align-items-center'>
-        </div>
          <div>
               {/* style={{color: " #22B8E5"}} */}
               <h3 className="underline-animate text-dark fw-bold"> Les Activités </h3>
@@ -189,7 +187,7 @@ function App() {
 
     <section class="d-flex justify-content-center align-items-center py-5">
       <div class="container text-center">
-        <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 justify-content-center">
 
           <div class="col">
             <div class="card h-100 radius-12 text-center shadow-sm">
