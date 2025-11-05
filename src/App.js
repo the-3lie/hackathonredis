@@ -33,7 +33,7 @@ function App() {
       </nav>
       <main className='row d-flex flex-column md-flex-md-row flex-lg-row pb-5 mt-5 pt-5 mb-5' style={{height: '100vh'}}>
         <div className='col-12 mb-4 m-lg-0 col-md-6 col-lg-6 col-xl-6 d-flex flex-column text-start text-wrap'>
-          <h1 className='display-1 fw-bold'>Participez au Hackaton officiel</h1>
+          <h1 className='display-1 fw-bold'>Participez au Hackathon officiel</h1>
           <p className='fs-5 text-muted mb-4'>Plateforme dédiée au concours : inscrivez votre équipe et enchaînez les défis du hackaton avec un démarrage automatique du premier défi.</p>
           <div class="d-flex flex-wrap gap-3 mt-4">
               <span class="badge bg-primary fs-6 p-2"><i class="bi bi-calendar-event me-3"></i>03-12 Décembre 2025</span>
