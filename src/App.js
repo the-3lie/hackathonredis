@@ -18,7 +18,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaWhatsapp, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function App() {
-  document.title = "Landing Page Hacka Redis"; 
+  document.title = "Hackathon du Redi's"; 
   return (
     <div className="App container-fluid">
       <nav className='nav d-flex justify-content-between align-items-center p-3 mb-3 fixed-top bg-body-tertiary'>
