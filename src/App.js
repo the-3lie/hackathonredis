@@ -41,7 +41,7 @@ function App() {
               <span class="badge bg-info fs-6 p-2"><i class="bi bi-people me-3"></i>Équipes de 3</span>
           </div>
           <div className='d-flex align-items-center mt-3'>
-            <a href="https://hackaredis.vercel.app/signup" className='btn btn-info text-white fw-medium me-5'><i className="bi bi-trophy me-3"></i> Créer mon équipe</a>
+            <a href=" https://hackaredis.iua-redis.tech " className='btn btn-info text-white fw-medium '><i className="bi bi-trophy me-3"></i> Créer mon équipe</a>
           </div>
         </div>
         <div className='col-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center align-items-start'>
