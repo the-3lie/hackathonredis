@@ -18,7 +18,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaWhatsapp, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function App() {
-  document.title = "Hackathon du Redi's"; 
+  document.title = "Hackathon du Redis"; 
   return (
     <div className="App container-fluid">
       <nav className='nav d-flex justify-content-between align-items-center p-3 mb-3 fixed-top bg-body-tertiary'>
@@ -31,21 +31,21 @@ function App() {
           </a>
         </div>
       </nav>
-      <main className='row d-flex flex-column md-flex-md-row flex-lg-row pb-5 mt-5 pt-5 mb-5' style={{height: '100vh'}}>
-        <div className='col-12 mb-4 m-lg-0 col-md-6 col-lg-6 col-xl-6 d-flex flex-column text-start text-wrap'>
+      <main className='row d-flex flex-column flex-sm-column flex-md-row flex-lg-row mt-5 pt-5 mb-5 overflow-hidden' style={{height: '100vh'}}>
+        <div className='col-12 col-sm-12 mb-2 mb-md-4 mb-lg-4 m-lg-0  col-md-6 col-lg-6 col-xl-6 d-flex flex-column text-start text-wrap'>
           <h2 className='display-1 fw-bold'>Participez au Hackathon officiel</h2>
           <p className='fs-5 text-muted mb-4'>Plateforme dédiée au concours : inscrivez votre équipe et enchaînez les défis du hackaton avec un démarrage automatique du premier défi.</p>
           <div class="d-flex flex-wrap gap-3 mt-4">
-              <span class="badge bg-primary fs-6 p-2"><i class="bi bi-calendar-event me-3"></i>03-12 Décembre 2025</span>
-              <span class="badge bg-success fs-6 p-2"><i class="bi bi-geo-alt me-3"></i>IUA, corniche</span>
-              <span class="badge bg-info fs-6 p-2"><i class="bi bi-people me-3"></i>Équipes de 3</span>
+              <span class="bg-primary fs-6 p-2 text-white"><i class="bi bi-calendar-event me-3"></i>03-12 Décembre 2025</span>
+              <span class="bg-success fs-6 p-2 text-white"><i class="bi bi-geo-alt me-3"></i>IUA, corniche</span>
+              <span class="bg-info fs-6 p-2 text-white"><i class="bi bi-people me-3"></i>Équipes de 3</span>
           </div>
           <div className='d-flex align-items-center mt-3'>
-            <a href=" https://hackaredis.iua-redis.tech/signup" className='btn btn-info text-white fw-medium '><i className="bi bi-trophy me-3"></i> Créer mon équipe</a>
+            <a href=" https://hackaredis.iua-redis.tech/signup" className='btn btn-dark text-white fw-medium'><i className="bi bi-trophy me-3"></i> Créer mon équipe</a>
           </div>
         </div>
-        <div className='col-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center align-items-start'>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div className='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-end align-items-start'>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src={landing2} class="img-fluid object-fit-cover border rounded" alt="..."/>
@@ -554,12 +554,12 @@ Prêt à relever le défi et montrer ton talent ? Viens vivre une expérience un
         <Row>
           <Col className="text-center small">
             <p class="fs-6">
-            Conçu avec amour par &nbsp;
-            <a href="https://hackaredis-dev.vercel.app/" class="underline-animate-dark-a fs-5 text-white fw-bold">Equipe technique</a>.
+            Organiser par notre &nbsp;
+            <a href="https://equipetechnique.iua-redis.tech/" class="underline-animate-dark-a fs-5 text-white fw-bold">Equipe technique</a>.
             </p>
           </Col>
           <Col className="text-center small">
-            &copy; {new Date().getFullYear()} HackaRedis. Tous droits réservés.
+            &copy; {new Date().getFullYear()} HackaRedis, cette page a été conçu par <span className="fw-bold text-decoration-underline fs-6">Marcaurel Brouzro & Henoc Guei</span>
           </Col>
         </Row>
       </Container>
