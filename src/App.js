@@ -557,7 +557,7 @@ Prêt à relever le défi et montrer ton talent ? Viens vivre une expérience un
             </p>
           </Col>
           <Col className="text-center small">
-            &copy; {new Date().getFullYear()} HackaRedis, cette page a été conçu par <span className="fw-bold text-decoration-underline fs-6">Marc-Aurel Brouzro & Henoc Guei</span>
+            &copy; {new Date().getFullYear()} HackaRedis, cette page a été conçu par <span className="fw-bold text-decoration-underline fs-6">Marc-aurel Brouzro & Henoc Guei</span>
           </Col>
         </Row>
       </Container>
