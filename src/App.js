@@ -1,14 +1,12 @@
 import logo from './assets/logoHackaRedis.png';
 import photo from'./assets/image.png';
 import image from'./assets/image2.jpg';
-import img from'./assets/image_2.jpg';
 import imageZ from'./assets/imagez.jpg';
 import imge from'./assets/télécharger.jpeg';
 import landing from './assets/landing_page.jpg';
 import landing2 from './assets/landing_page2.jpg';
 import landing3 from './assets/landing_page3.jpg';
 import landing4 from './assets/landing_page4.jpg';
-import { BrowserRouter as Router, Route, Routes, link } from 'react-router-dom';
 import './App.css'; 
 import './assets/css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -559,7 +557,7 @@ Prêt à relever le défi et montrer ton talent ? Viens vivre une expérience un
             </p>
           </Col>
           <Col className="text-center small">
-            &copy; {new Date().getFullYear()} HackaRedis, cette page a été conçu par <span className="fw-bold text-decoration-underline fs-6">Marc-aurel Brouzro & Henoc Guei</span>
+            &copy; {new Date().getFullYear()} HackaRedis, cette page a été conçu par <span className="fw-bold text-decoration-underline fs-6">Marc-Aurel Brouzro & Henoc Guei</span>
           </Col>
         </Row>
       </Container>
